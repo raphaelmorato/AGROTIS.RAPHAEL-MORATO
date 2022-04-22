@@ -11,7 +11,7 @@ namespace AGROTIS.CUL.Model.Financeiro
     {
         public PedidoCUL()
         {
-            Cliente = new ClienteCUL();
+            Cliente = new ClienteCUL(); 
             LstItem = new List<PedidoItemCUL>();
         }
         public int Codigo { get; set; }
